@@ -82,7 +82,7 @@ const Hero: React.FC<HeroProps> = ({ motionX, onSwipeAboutEnd, onNavigate }) => 
                 
                 {/* FIX: Changed button to an anchor tag for downloading the resume */}
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1bHy0DMuP5-R9MuwQkKdANVSF7-wYDDMn"
+                  href="https://drive.google.com/file/d/1NUcNwr3yeqcZUbdb--VRB-z529UGNBLr/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   download="Anandhu_Resume.pdf" // This suggests a filename to the browser
