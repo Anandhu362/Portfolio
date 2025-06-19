@@ -65,8 +65,8 @@ const projectsData: { [key: string]: ProjectData } = {
   "rr-business": {
     title: "RR Business Group",
     image: "/rr.png",
-    githubUrl: "https://github.com/Anandhu362/RrBusinessGroup",
-    liveUrl: "https://rrbusinessgroup.com",
+    githubUrl: "http://34.100.243.199/",
+    liveUrl: "http://34.100.243.199/",
     tags: ["React", "Business Website", "Modern UI"],
     features: [
       "Modern company website",
