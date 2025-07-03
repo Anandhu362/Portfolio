@@ -58,7 +58,8 @@ const Hero: React.FC<HeroProps> = ({ motionX, onSwipeAboutEnd, onNavigate }) => 
             animate="visible"
           >
             <div className="relative">
-              <motion.h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6" variants={itemVariants}>
+              {/* UPDATED: Added font-neuroxa class here */}
+              <motion.h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 font-neuroxa" variants={itemVariants}>
                 <span className="block">Hi, I'm a</span>
                 <span className="bg-gradient-to-r from-green-400 via-green-500 to-green-600 bg-clip-text text-transparent animate-gradient">
                   Full Stack Developer
