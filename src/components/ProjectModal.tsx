@@ -112,7 +112,7 @@ const projectsData: { [key: string]: ProjectData } = {
     title: "Text-to-Speech Converter",
     image: "/tots.png",
     githubUrl: "https://github.com/Anandhu362/Text-to-Speech-Converter",
-    liveUrl: "https://anandhu362.github.io/Text-to-Speech-Converter/",
+    liveUrl: "https://text-to-speech-converter-q14v.vercel.app/",
     tags: ["Web", "AI", "JavaScript", "API"],
     features: [
       "Multiple languages",
