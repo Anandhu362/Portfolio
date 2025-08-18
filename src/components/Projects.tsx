@@ -27,7 +27,21 @@ const projects: Project[] = [
     { id: 3, title: 'VPN Data Optimization Guide', description: 'Networking project focused on optimizing VPN data transmission', image: '/vp1.png', tags: ['Networking', 'VPN', 'Optimization', 'Security'], techStack: ['Linux', 'WireGuard', 'Google Cloud'], fullDescription: 'A step-by-step guide to setting up a Mumbai-based Google Cloud VPS running WireGuard VPN, including all configs and proof of secure client tunneling.', features: ['Cloud VM setup', 'WireGuard config', 'Firewall & network', 'Client config'], githubUrl: 'https://github.com/Anandhu362/Virtual-Private-Server-', liveUrl: 'https://github.com/Anandhu362/Virtual-Private-Server-', category: 'Networking' },
     { id: 4, title: 'Text-to-Speech Converter', description: 'Web app to convert text to natural speech with MP3 download.', image: '/tots.png', tags: ['Web', 'AI', 'JavaScript', 'API'], techStack: ['Flask', 'HTML', 'Bootstrap', 'gTTS'], fullDescription: 'A simple web app to convert text input to speech audio using Google\'s TTS API. Output can be played or downloaded as MP3.', features: ['Multiple languages', 'Voice customization', 'MP3 download', 'Fast UI'], githubUrl: 'https://github.com/Anandhu362/Text-to-Speech-Converter', liveUrl: 'https://text-to-speech-converter-q14v.vercel.app/', category: 'Web' },
     { id: 5, title: 'Online Book Ordering System', description: 'E-commerce platform for book ordering with modern UI/UX', image: '/book.png', tags: ['E-commerce', 'React', 'Database', 'Web'], techStack: ['Django', 'React', 'PostgreSQL'], fullDescription: 'A full-stack e-commerce platform for book ordering with user authentication, shopping cart, payment, and admin inventory management.', features: ['User authentication', 'Shopping cart', 'Payments', 'Admin panel'], githubUrl: 'https://github.com/Anandhu362/BookOrderingSystem', liveUrl: '#', category: 'Web' },
-    { id: 6, title: 'MuLearn Cybersecurity Cohort', description: 'Security monitoring dashboard and pentesting labs', image: '/cyb.png', tags: ['Security', 'Dashboard', 'Team', 'Monitoring'], techStack: ['Python', 'Linux', 'Networking Tools'], fullDescription: 'Hands-on cybersecurity cohort with labs, scripts, and tools for pentesting, Linux, and networking—built as part of the Mulearn student team.', features: ['Pentesting basics', 'Network analysis', 'Python automation', 'Linux scripting'], githubUrl: 'https://github.com/Anandhu362/mulearn-cybersecurity-cohort1', liveUrl: 'https://github.com/Anandhu362/mulearn-cybersecurity-cohort1', category: 'Security' }
+    { id: 6, title: 'MuLearn Cybersecurity Cohort', description: 'Security monitoring dashboard and pentesting labs', image: '/cyb.png', tags: ['Security', 'Dashboard', 'Team', 'Monitoring'], techStack: ['Python', 'Linux', 'Networking Tools'], fullDescription: 'Hands-on cybersecurity cohort with labs, scripts, and tools for pentesting, Linux, and networking—built as part of the Mulearn student team.', features: ['Pentesting basics', 'Network analysis', 'Python automation', 'Linux scripting'], githubUrl: 'https://github.com/Anandhu362/mulearn-cybersecurity-cohort1', liveUrl: 'https://github.com/Anandhu362/mulearn-cybersecurity-cohort1', category: 'Security' },
+    // *** NEW PROJECT ADDED HERE ***
+    { 
+        id: 7, 
+        title: 'Url Shorten Website', 
+        description: 'A full-stack web app to create short, shareable links from long URLs.', 
+        image: '/short.png', 
+        tags: ['Web', 'MERN', 'API', 'Utility'], 
+        techStack: ['React', 'Node.js', 'MongoDB', 'Express'], 
+        fullDescription: 'A comprehensive URL shortening service built with the MERN stack. Users can paste a long URL to receive a compact, shareable link. The application also tracks the number of times a link is visited.', 
+        features: ['Short URL generation', 'Click analytics', 'User-friendly interface', 'RESTful API'], 
+        githubUrl: 'https://github.com/Anandhu362/Url-shorten-website', 
+        liveUrl: 'https://url-shorten-website-six.vercel.app/', 
+        category: 'Web' 
+    }
 ];
 
 const GlassPanel = ({ children }: { children: React.ReactNode }) => (
