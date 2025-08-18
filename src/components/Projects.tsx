@@ -28,7 +28,6 @@ const projects: Project[] = [
     { id: 4, title: 'Text-to-Speech Converter', description: 'Web app to convert text to natural speech with MP3 download.', image: '/tots.png', tags: ['Web', 'AI', 'JavaScript', 'API'], techStack: ['Flask', 'HTML', 'Bootstrap', 'gTTS'], fullDescription: 'A simple web app to convert text input to speech audio using Google\'s TTS API. Output can be played or downloaded as MP3.', features: ['Multiple languages', 'Voice customization', 'MP3 download', 'Fast UI'], githubUrl: 'https://github.com/Anandhu362/Text-to-Speech-Converter', liveUrl: 'https://text-to-speech-converter-q14v.vercel.app/', category: 'Web' },
     { id: 5, title: 'Online Book Ordering System', description: 'E-commerce platform for book ordering with modern UI/UX', image: '/book.png', tags: ['E-commerce', 'React', 'Database', 'Web'], techStack: ['Django', 'React', 'PostgreSQL'], fullDescription: 'A full-stack e-commerce platform for book ordering with user authentication, shopping cart, payment, and admin inventory management.', features: ['User authentication', 'Shopping cart', 'Payments', 'Admin panel'], githubUrl: 'https://github.com/Anandhu362/BookOrderingSystem', liveUrl: '#', category: 'Web' },
     { id: 6, title: 'MuLearn Cybersecurity Cohort', description: 'Security monitoring dashboard and pentesting labs', image: '/cyb.png', tags: ['Security', 'Dashboard', 'Team', 'Monitoring'], techStack: ['Python', 'Linux', 'Networking Tools'], fullDescription: 'Hands-on cybersecurity cohort with labs, scripts, and tools for pentesting, Linux, and networking—built as part of the Mulearn student team.', features: ['Pentesting basics', 'Network analysis', 'Python automation', 'Linux scripting'], githubUrl: 'https://github.com/Anandhu362/mulearn-cybersecurity-cohort1', liveUrl: 'https://github.com/Anandhu362/mulearn-cybersecurity-cohort1', category: 'Security' },
-    // *** NEW PROJECT ADDED HERE ***
     { 
         id: 7, 
         title: 'Url Shorten Website', 
@@ -41,6 +40,20 @@ const projects: Project[] = [
         githubUrl: 'https://github.com/Anandhu362/Url-shorten-website', 
         liveUrl: 'https://url-shorten-website-six.vercel.app/', 
         category: 'Web' 
+    },
+    // *** NEW PROJECT ADDED HERE ***
+    {
+        id: 8,
+        title: 'To-Do List App',
+        description: 'A clean UI To-Do List app built with HTML, CSS, and JavaScript for an internship task.',
+        image: '/todo.png',
+        tags: ['JavaScript', 'HTML/CSS', 'Internship', 'Utility'],
+        techStack: ['HTML', 'CSS', 'JavaScript'],
+        fullDescription: 'A classic To-Do List application created as an internship task for Altos Technology. It features a clean and intuitive user interface for adding, deleting, and marking tasks as complete, built with fundamental web technologies.',
+        features: ['Add & delete tasks', 'Mark tasks complete', 'Clean UI', 'Responsive Design'],
+        githubUrl: 'https://github.com/Anandhu362/To-do-List',
+        liveUrl: 'https://anandhu362.github.io/To-do-List',
+        category: 'Web'
     }
 ];
 
