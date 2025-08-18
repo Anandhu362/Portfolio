@@ -152,6 +152,22 @@ const projectsData: { [key: string]: ProjectData } = {
     ],
     techStack: ["Python", "Linux", "Networking Tools"],
     fullDescription: "Hands-on cybersecurity cohort with labs, scripts, and tools for pentesting, Linux, and networking—built as part of the Mulearn student team."
+  },
+  // *** NEW PROJECT ADDED HERE ***
+  "url-shortener": {
+    title: "Url Shorten Website",
+    image: "/short.png",
+    githubUrl: "https://github.com/Anandhu362/Url-shorten-website",
+    liveUrl: "https://url-shorten-website-six.vercel.app/",
+    tags: ["Web App", "MERN Stack", "Utility"],
+    features: [
+      "Short URL generation",
+      "Click analytics tracking",
+      "User-friendly interface",
+      "RESTful API backend"
+    ],
+    techStack: ["React", "Node.js", "MongoDB", "Express"],
+    fullDescription: "A full-stack URL shortening service built with the MERN stack. It takes a long URL and generates a shorter, easy-to-share link, while also tracking the number of clicks for each shortened URL."
   }
 };
 
